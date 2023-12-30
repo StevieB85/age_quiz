@@ -1,10 +1,11 @@
-# need to establish the persons aged
-name = input("Please enter your name : ")
+#Removed Input for Name 
+
 # using the input function i can get this information 
 age = int(input("please provide us with your age : "))
 
 # if the person inputs any of the relevent ages they will receive the following responses 
-print(f"Wow {name}")
+
+#Removed Name Print out
 
 if age < 13:
     print("you qualify for the kiddies discount")
