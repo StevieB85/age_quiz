@@ -1,11 +1,13 @@
-#Removed Input for Name 
+# Added input for name
+name = input("Please enter your name : ")
 
 # using the input function i can get this information 
 age = int(input("please provide us with your age : "))
 
 # if the person inputs any of the relevent ages they will receive the following responses 
 
-#Removed Name Print out
+#Added print for name
+print(f"Hello {name} ")
 
 if age < 13:
     print("you qualify for the kiddies discount")
